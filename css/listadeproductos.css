@@ -1,0 +1,42 @@
+.img-productos{
+    width: 150px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista-productos{
+    display: flex;
+}
+
+.tarjeta-producto{
+    padding: 5px 20px 5px 20px;
+
+}
+
+.boton-comprar{
+    background-color: blue;border: none;
+    padding: 7px;
+    color: white;
+    margin-top: 10px;
+}
+
+.boton-comprar:hover{
+    background-color: rgb(9, 9, 94);
+}
+
+.titulo-producto{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.descripcion-producto, .precio-producto{
+margin-bottom: 1px;
+}
+
+.precio-producto{
+    font-weight: bold;
+}
+
+@media
