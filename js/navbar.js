@@ -10,16 +10,18 @@ document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-ex
     <div class="menu collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
             </li>
+            <!-- 
             <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
+                <a class="nav-link" href="#">Productos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Precios</a>
             </li>
+            -->
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="./index.html#contact">Contacto</a>
             </li>
         </ul>
     </div>
