@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --blanco: #ffffff;
+  --black: #212121;
+  --primario: antiquewhite;
+  --secundario: #0097a7;
+  --gris: #757575;
+  --grisclaro: #888686;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/*** Encabeza ***/
+.encabeza {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.encabeza h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  color: darkslategrey;
+}
+
+
+/* Contenedor */
+body {
+  min-width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 400;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-top: 10%;
+  background-color: #2f4f4f;
+  border-top: 10px solid rgb(241, 40, 40);
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: aliceblue;
+}
+
+/* Media Querys */
+
