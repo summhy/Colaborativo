@@ -1,0 +1,30 @@
+.redondeado{
+    border-radius: 10px;
+
+}
+
+.confondo{
+    background-color: yellowgreen; 
+
+}
+
+.sinbordes{
+    border: 0;
+}
+
+.sinbordefondos{
+    background-color: #eee;
+    border: 0;
+}
+
+.sinlinea{
+    outline: none; 
+    background-color: #dfe;
+    border: 0;
+
+}
+
+.redondolevel{
+    border-radius: 5px;
+    border: 1px solid #393939;
+}
