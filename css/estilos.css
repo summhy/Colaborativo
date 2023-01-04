@@ -13,7 +13,12 @@
   box-sizing: border-box;
 }
 
-/* HEADER */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 
 /*** Encabeza ***/
@@ -28,8 +33,10 @@
   color: darkslategrey;
 }
 
+
 /* Contenedor */
 body {
+  min-width: 300px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 400;
   padding: 0;
