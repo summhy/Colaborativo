@@ -1,0 +1,8 @@
+.product-image img {
+    width: 100%;
+}
+
+.product-detail .price {
+    font-size: 2rem;
+    font-weight: 700;
+}
