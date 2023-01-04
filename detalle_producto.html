@@ -9,25 +9,72 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/estilos.css">
+    
+    <!-- CSS Navbar-->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!--CSS Boton-->
+    <link rel="stylesheet" href="/css/buttons.css">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
     <!-- CSS personalizado para el detalle del producto -->
     <link rel="stylesheet" href="./css/detalle_producto.css">
 
 </head>
 <body>
-    
-    <div class="product container row">
-        <div class="product-image col-12 col-sm-6 p-2">
-            <img src="https://www.espanolaonline.cl/wp-content/uploads/2022/12/Pack-x3-Johnnie-Rojo-Litro-ok.jpg" alt="su juan caminante">
-        </div>
-        <div class="product-detail col-12 col-sm-6 p-2 pt-5">
-            <h1>Su Juan Caminante</h1>
-            <p class="price">$19.990</p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, consectetur laborum exercitationem omnis accusantium, adipisci ratione laboriosam quisquam iusto modi ad. Dolorem quisquam quaerat suscipit unde consequuntur exercitationem a soluta! </p>
-            <button type="button" class="btn btn-primary">COMPRAR</button>
-        </div>
-    </div>
 
-<!-- Bootstrp JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <header>
+        <div id="navbar"></div>
+    </header>
+    
+    <main>
+
+        <div class="product container row">
+            <div class="product-image col-12 col-sm-6 p-2">
+                <img src="https://www.espanolaonline.cl/wp-content/uploads/2022/12/Pack-x3-Johnnie-Rojo-Litro-ok.jpg"
+                    alt="su juan caminante">
+            </div>
+            <div class="product-detail col-12 col-sm-6 p-5">
+                <h1>Su Juan Caminante</h1>
+                <p class="price">$19.990</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, consectetur laborum exercitationem
+                    omnis accusantium, adipisci ratione laboriosam quisquam iusto modi ad. Dolorem quisquam quaerat suscipit
+                    unde consequuntur exercitationem a soluta! </p>
+                <!-- <button type="button" class="btn btn-primary">COMPRAR</button> -->
+
+                <!-- Button template -->
+                <a href="#" class="btn-temp" id="btn-js" onclick="btnClick()">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    Comprar
+                </a>
+                <!-- Finish button template -->
+            </div>
+        </div>
+
+    </main>
+    
+    <footer>
+    
+    </footer>
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrp JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Navbar-->
+    <script src="js/navbar.js"></script>
+    <!-- Botones-->
+    <script src="/js/buttons.js"></script>
+
+
+    
+
 </body>
 </html>
