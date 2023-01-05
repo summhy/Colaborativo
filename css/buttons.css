@@ -12,7 +12,7 @@
     overflow: hidden;
     position: relative;
     display: inline-block;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-decoration: none;
     border-radius: 30px;
 }
@@ -83,4 +83,10 @@
 .btn-temp:hover #span4 {
   bottom: 100%;
   transition: 1s;
+}
+
+/* Details button */
+.details {
+  margin-top: 10px;
+  padding: 10px 10px;
 }
