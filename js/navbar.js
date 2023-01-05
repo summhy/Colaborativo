@@ -1,17 +1,37 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+// Pintando el contenido en el navbar
+document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="containerAll">
+    <div class="logo">
+        <a class="navbar-brand " href="./index.html">
+            <img src="img/logo.png" alt="Logo"
+                width="80" height="40"></a>
+    </div>
+    <div class="menu collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <!-- 
+            <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Precios</a>
+            </li>
+            -->
+            <li class="nav-item">
+                <a class="nav-link" href="./formulario.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <div class="burger">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+</nav>`;
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
