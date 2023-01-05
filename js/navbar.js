@@ -3,7 +3,7 @@
 document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="containerAll">
     <div class="logo">
-        <a class="navbar-brand " href="#">
+        <a class="navbar-brand " href="./index.html">
             <img src="img/logo.png" alt="Logo"
                 width="80" height="40"></a>
     </div>
@@ -21,7 +21,7 @@ document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-ex
             </li>
             -->
             <li class="nav-item">
-                <a class="nav-link" href="./index.html#contact">Contacto</a>
+                <a class="nav-link" href="./formulario.html">Contacto</a>
             </li>
         </ul>
     </div>

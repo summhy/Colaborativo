@@ -6,15 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/input.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/estilos.css">
+    
+    <!-- CSS Navbar-->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!--CSS Boton-->
+    <link rel="stylesheet" href="/css/buttons.css">
+    <!--CSS lista Productos-->
+    <link rel="stylesheet" href="css/listadeproductos.css" />
+    
+    <!-- Formulario -->
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/input.css">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Formulario -->
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/input.css">
 
 </head>
 
 <body>
-    <section>       
-        <form class="formulario" >
-            
-            <fieldset>
+
+    <header>
+        <div id="navbar"></div>
+    </header>
+
+    <main>
+        <!-- Formulario de contacto -->
+        <section id="contact" class=" container p-5">
+            <form class="formulario">
+        
+                <fieldset>
                     <legend> Contactanos </legend>
                     <div class="contenedor-campos">
                         <div class="campos">
@@ -34,16 +64,30 @@
                             <textarea class="input-text"></textarea>
                         </div>
                     </div>
-                <!--.contenedor-campos-->
+                    <!--.contenedor-campos-->
                     <div>
                         <input class="boton" type="submit" value="Enviar">
                     </div>
-            </fieldset>
-
-        </form>
-
-    </section>
+                </fieldset>
+        
+            </form>
+        
+        </section>
+    </main>
     
+    <footer></footer>
+
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- Bootstrp JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Navbar-->
+    <script src="js/navbar.js"></script>
+    <!-- Botones-->
+    <script src="/js/buttons.js"></script>
 </body>
 
 </html>
