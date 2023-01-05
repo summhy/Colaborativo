@@ -84,3 +84,9 @@
   bottom: 100%;
   transition: 1s;
 }
+
+/* Details button */
+.details {
+  margin-top: 10px;
+  padding: 10px;
+}
