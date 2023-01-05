@@ -14,7 +14,7 @@ document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-ex
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="#">Clientes</a>
+                <a class="nav-link" href="./clientes.html">Clientes</a>
             </li>
             <!-- 
             <li class="nav-item">
