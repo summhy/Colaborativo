@@ -26,3 +26,10 @@ body {
 .burger{
     padding-right: 50px;
 }
+
+@media (min-width: 800px){
+  .navbar {
+    display: flex !important;
+}
+  
+}
