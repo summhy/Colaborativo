@@ -1,6 +1,7 @@
-
 // Pintando el contenido en el navbar
-document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-expand-lg navbar-dark bg-dark">
+document.getElementById(
+  "navbar"
+).innerHTML = `<nav class="menu navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="containerAll">
     <div class="logo">
         <a class="navbar-brand " href="#">
@@ -32,4 +33,3 @@ document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-ex
     </div>
 </div>
 </nav>`;
-

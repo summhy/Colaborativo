@@ -5,24 +5,30 @@
   box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-  }
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
 
 /* navbar */
-.containerAll{
+.containerAll {
   width: 100vw;
   display: flex;
   justify-content: space-between;
 }
-.logo{
+.logo {
   width: 50%;
   padding-left: 50px;
 }
-.menu{
-    justify-content: end;
-    padding-right: 100px;
+.menu {
+  justify-content: end;
+  padding-right: 100px;
 }
-.burger{
-    padding-right: 50px;
+.burger {
+  padding-right: 50px;
+}
+
+@media (min-width: 800px) {
+  .navbar-toggler {
+    display: none;
+  }
 }
