@@ -12,10 +12,11 @@ document.getElementById("navbar").innerHTML = `<nav class="menu navbar navbar-ex
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
             </li>
-            <!-- 
+            
             <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="#">Clientes</a>
             </li>
+            <!-- 
             <li class="nav-item">
                 <a class="nav-link" href="#">Precios</a>
             </li>
